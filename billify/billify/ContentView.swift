@@ -6,7 +6,7 @@ struct ContentView: View {
     @State private var tipPercanetage = 20
     @FocusState private var amountIsFocused: Bool
     
-    let tipPercentages = [10, 15, 20, 25, 0]
+    let tipPercentages = [0, 10, 15, 20, 25, 50]
     
     var totalPerPerson: Double {
         let peopleCount = Double(numOfPeople + 2)
@@ -17,6 +17,19 @@ struct ContentView: View {
         let amountPerPerson = grandTotal /  peopleCount
         
         return amountPerPerson
+    }
+    
+    var totalAmount: Double {
+        let tipSelection = Double(tipPercanetage)
+        
+        let tipValue = checkAmout / 100 * tipSelection
+        let grandTotal = checkAmout + tipValue
+        
+        return grandTotal
+    }
+    
+    var currencyCode: FloatingPointFormatStyle<Double>.Currency {
+        return .currency(code: Locale.current.currency?.identifier ?? "Ghc")
     }
     
     var body: some View {
@@ -47,7 +60,15 @@ struct ContentView: View {
                 }
                 
                 Section {
-                    Text(totalPerPerson, format: .currency(code: Locale.current.currency?.identifier ?? "Ghc"))
+                    Text(totalAmount, format: currencyCode)
+                } header: {
+                    Text("Total amount")
+                }
+                
+                Section {
+                    Text(totalPerPerson, format: currencyCode)
+                } header: {
+                    Text("How much tip do you want to leave?")
                 }
                 .navigationTitle("Billify")
                 .toolbar {
