@@ -6,12 +6,21 @@ struct ContentView: View {
     @State private var scoreTitle = ""
     @State private var score = 0.0
     @State private var onTapped = 0.0
-     
+    
     @State private var countries = ["Estonia", "France", "Germany", "Ireland", "Italy", "Nigeria", "Poland", "Russia", "Spain", "UK", "US"].shuffled()
     
     @State private var correctAnswer = Int.random(in: 0...2)
-
     
+    struct FlagImage: View {
+        var image: String
+        
+        var body: some View {
+            Image(image)
+                .renderingMode(.original)
+                .clipShape(RoundedRectangle(cornerRadius: 10))
+        }
+    }
+        
     var body: some View {
         ZStack {
             
@@ -20,9 +29,7 @@ struct ContentView: View {
             
             VStack {
                 Spacer()
-                Text("Flagaroo")
-                    .font(.largeTitle.bold())
-                    .foregroundColor(.white)
+                    .header(with: "Flagaroo")
                 VStack(spacing: 15) {
                     VStack {
                         Text("Tap the flag of")
@@ -35,9 +42,7 @@ struct ContentView: View {
                         Button {
                             flagTapped(number)
                         } label: {
-                            Image(countries[number])
-                                .renderingMode(.original)
-                                .clipShape(RoundedRectangle(cornerRadius: 10))
+                            FlagImage(image: countries[number])
                         }
                     }
                 }

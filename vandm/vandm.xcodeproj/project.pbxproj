@@ -7,24 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		148B73F62A79B52A00BF9CA6 /* CustomModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B73F52A79B52A00BF9CA6 /* CustomModifier.swift */; };
-		149DAB022A745CEE00545F05 /* FlagarooApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149DAB012A745CEE00545F05 /* FlagarooApp.swift */; };
-		149DAB042A745CEE00545F05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149DAB032A745CEE00545F05 /* ContentView.swift */; };
-		149DAB062A745CEF00545F05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 149DAB052A745CEF00545F05 /* Assets.xcassets */; };
-		149DAB092A745CEF00545F05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 149DAB082A745CEF00545F05 /* Preview Assets.xcassets */; };
+		14D822F42A78519800CA4FDC /* VandmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D822F32A78519800CA4FDC /* VandmApp.swift */; };
+		14D822F62A78519800CA4FDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D822F52A78519800CA4FDC /* ContentView.swift */; };
+		14D822F82A78519900CA4FDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D822F72A78519900CA4FDC /* Assets.xcassets */; };
+		14D822FB2A78519900CA4FDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D822FA2A78519900CA4FDC /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		148B73F52A79B52A00BF9CA6 /* CustomModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifier.swift; sourceTree = "<group>"; };
-		149DAAFE2A745CEE00545F05 /* flagaroo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flagaroo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		149DAB012A745CEE00545F05 /* FlagarooApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagarooApp.swift; sourceTree = "<group>"; };
-		149DAB032A745CEE00545F05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		149DAB052A745CEF00545F05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		149DAB082A745CEF00545F05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		14D822F02A78519800CA4FDC /* vandm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vandm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14D822F32A78519800CA4FDC /* VandmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VandmApp.swift; sourceTree = "<group>"; };
+		14D822F52A78519800CA4FDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		14D822F72A78519900CA4FDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14D822FA2A78519900CA4FDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		149DAAFB2A745CEE00545F05 /* Frameworks */ = {
+		14D822ED2A78519800CA4FDC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,38 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		149DAAF52A745CEE00545F05 = {
+		14D822E72A78519800CA4FDC = {
 			isa = PBXGroup;
 			children = (
-				149DAB002A745CEE00545F05 /* flagaroo */,
-				149DAAFF2A745CEE00545F05 /* Products */,
+				14D822F22A78519800CA4FDC /* vandm */,
+				14D822F12A78519800CA4FDC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		149DAAFF2A745CEE00545F05 /* Products */ = {
+		14D822F12A78519800CA4FDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				149DAAFE2A745CEE00545F05 /* flagaroo.app */,
+				14D822F02A78519800CA4FDC /* vandm.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		149DAB002A745CEE00545F05 /* flagaroo */ = {
+		14D822F22A78519800CA4FDC /* vandm */ = {
 			isa = PBXGroup;
 			children = (
-				149DAB012A745CEE00545F05 /* FlagarooApp.swift */,
-				149DAB032A745CEE00545F05 /* ContentView.swift */,
-				148B73F52A79B52A00BF9CA6 /* CustomModifier.swift */,
-				149DAB052A745CEF00545F05 /* Assets.xcassets */,
-				149DAB072A745CEF00545F05 /* Preview Content */,
+				14D822F32A78519800CA4FDC /* VandmApp.swift */,
+				14D822F52A78519800CA4FDC /* ContentView.swift */,
+				14D822F72A78519900CA4FDC /* Assets.xcassets */,
+				14D822F92A78519900CA4FDC /* Preview Content */,
 			);
-			path = flagaroo;
+			path = vandm;
 			sourceTree = "<group>";
 		};
-		149DAB072A745CEF00545F05 /* Preview Content */ = {
+		14D822F92A78519900CA4FDC /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				149DAB082A745CEF00545F05 /* Preview Assets.xcassets */,
+				14D822FA2A78519900CA4FDC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -73,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		149DAAFD2A745CEE00545F05 /* flagaroo */ = {
+		14D822EF2A78519800CA4FDC /* vandm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 149DAB0C2A745CEF00545F05 /* Build configuration list for PBXNativeTarget "flagaroo" */;
+			buildConfigurationList = 14D822FE2A78519900CA4FDC /* Build configuration list for PBXNativeTarget "vandm" */;
 			buildPhases = (
-				149DAAFA2A745CEE00545F05 /* Sources */,
-				149DAAFB2A745CEE00545F05 /* Frameworks */,
-				149DAAFC2A745CEE00545F05 /* Resources */,
+				14D822EC2A78519800CA4FDC /* Sources */,
+				14D822ED2A78519800CA4FDC /* Frameworks */,
+				14D822EE2A78519800CA4FDC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = flagaroo;
-			productName = flagaroo;
-			productReference = 149DAAFE2A745CEE00545F05 /* flagaroo.app */;
+			name = vandm;
+			productName = vandm;
+			productReference = 14D822F02A78519800CA4FDC /* vandm.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		149DAAF62A745CEE00545F05 /* Project object */ = {
+		14D822E82A78519800CA4FDC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					149DAAFD2A745CEE00545F05 = {
+					14D822EF2A78519800CA4FDC = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 149DAAF92A745CEE00545F05 /* Build configuration list for PBXProject "flagaroo" */;
+			buildConfigurationList = 14D822EB2A78519800CA4FDC /* Build configuration list for PBXProject "vandm" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,43 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 149DAAF52A745CEE00545F05;
-			productRefGroup = 149DAAFF2A745CEE00545F05 /* Products */;
+			mainGroup = 14D822E72A78519800CA4FDC;
+			productRefGroup = 14D822F12A78519800CA4FDC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				149DAAFD2A745CEE00545F05 /* flagaroo */,
+				14D822EF2A78519800CA4FDC /* vandm */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		149DAAFC2A745CEE00545F05 /* Resources */ = {
+		14D822EE2A78519800CA4FDC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				149DAB092A745CEF00545F05 /* Preview Assets.xcassets in Resources */,
-				149DAB062A745CEF00545F05 /* Assets.xcassets in Resources */,
+				14D822FB2A78519900CA4FDC /* Preview Assets.xcassets in Resources */,
+				14D822F82A78519900CA4FDC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		149DAAFA2A745CEE00545F05 /* Sources */ = {
+		14D822EC2A78519800CA4FDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				149DAB042A745CEE00545F05 /* ContentView.swift in Sources */,
-				149DAB022A745CEE00545F05 /* FlagarooApp.swift in Sources */,
-				148B73F62A79B52A00BF9CA6 /* CustomModifier.swift in Sources */,
+				14D822F62A78519800CA4FDC /* ContentView.swift in Sources */,
+				14D822F42A78519800CA4FDC /* VandmApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		149DAB0A2A745CEF00545F05 /* Debug */ = {
+		14D822FC2A78519900CA4FDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -209,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		149DAB0B2A745CEF00545F05 /* Release */ = {
+		14D822FD2A78519900CA4FDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,14 +259,14 @@
 			};
 			name = Release;
 		};
-		149DAB0D2A745CEF00545F05 /* Debug */ = {
+		14D822FF2A78519900CA4FDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"flagaroo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"vandm/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -283,7 +279,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.soulll.flagaroo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soulll.vandm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -291,14 +287,14 @@
 			};
 			name = Debug;
 		};
-		149DAB0E2A745CEF00545F05 /* Release */ = {
+		14D823002A78519900CA4FDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"flagaroo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"vandm/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -311,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.soulll.flagaroo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soulll.vandm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -322,25 +318,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		149DAAF92A745CEE00545F05 /* Build configuration list for PBXProject "flagaroo" */ = {
+		14D822EB2A78519800CA4FDC /* Build configuration list for PBXProject "vandm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				149DAB0A2A745CEF00545F05 /* Debug */,
-				149DAB0B2A745CEF00545F05 /* Release */,
+				14D822FC2A78519900CA4FDC /* Debug */,
+				14D822FD2A78519900CA4FDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		149DAB0C2A745CEF00545F05 /* Build configuration list for PBXNativeTarget "flagaroo" */ = {
+		14D822FE2A78519900CA4FDC /* Build configuration list for PBXNativeTarget "vandm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				149DAB0D2A745CEF00545F05 /* Debug */,
-				149DAB0E2A745CEF00545F05 /* Release */,
+				14D822FF2A78519900CA4FDC /* Debug */,
+				14D823002A78519900CA4FDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 149DAAF62A745CEE00545F05 /* Project object */;
+	rootObject = 14D822E82A78519800CA4FDC /* Project object */;
 }
