@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    var moves = ["Rock", "Paper", "Scissors"]
+    let moves = ["Rock", "Paper", "Scissors"]
     
     @State private var appMove = Int.random(in: 0..<3)
 //    @State private var shouldWin = Bool.random()
@@ -16,14 +16,10 @@ struct ContentView: View {
             Text("Move: \(moves[appMove])")
             
             HStack() {
-                Button("Rock") {
-                    checkMove(1)
-                }
-                Button("Paper") {
-                    checkMove(2)
-                }
-                Button("Scissors") {
-                    checkMove(3)
+                ForEach(0..<3) {index in
+                    Button(moves[index]) {
+                        checkMove(index)
+                    }
                 }
             }.padding()
             
