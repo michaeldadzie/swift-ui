@@ -53,6 +53,7 @@
 		14847E222A87C7F10005C172 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				14B619D22A87B4D0002BA937 /* ContentView.swift */,
 				14573BE82A87D4B700A37132 /* SignUpView.swift */,
 				14573BEA2A87D85300A37132 /* HomeView.swift */,
 			);
@@ -81,7 +82,6 @@
 				14847E222A87C7F10005C172 /* Views */,
 				14847E212A87C7E70005C172 /* Model */,
 				14B619D02A87B4D0002BA937 /* FAuthApp.swift */,
-				14B619D22A87B4D0002BA937 /* ContentView.swift */,
 				14B619DE2A87C175002BA937 /* GoogleService-Info.plist */,
 				14B619D42A87B4D1002BA937 /* Assets.xcassets */,
 				14B619D62A87B4D1002BA937 /* Preview Content */,
